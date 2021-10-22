@@ -1,0 +1,9 @@
+1.Verilmis yazi umumilikde sayt adidirsa secsin.
+^(www.)+[A-Za-z.]+(.com|.edu.az)$
+
+2. Verilmis yazinin icindeki riyazi ifadeleri tapan regex
+/([0-9]+[\+\*\-\/])+([0-9]+=[0-9]+)
+
+
+3. Verilmis yazinin umumilikde email-dirse secsin
+^(\w)+[A-Za-z0-9_]+(@gmail.com|@mail.ru)$
